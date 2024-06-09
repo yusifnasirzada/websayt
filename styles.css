@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.svg1, .svg2{
+    height: 600px;
+}
+
+.svg1{
+    fill: #9ad7f6 !important;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+
+
+.svg2{
+    fill: #f7d0b2 !important;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+
+}
+
+.bala h1{
+    width: 450px;
+    height: 170px;
+    position: absolute;
+    background-color: white;
+    color: #54b5e7 !important;
+    z-index: 4;
+    font-size: 55px;
+    align-items: center;
+    top: 100px;
+    left: -90px;
+}
+
+.imgBOX{
+    height: 620px;
+    width: 600px;
+    position: relative;
+    z-index: 3;
+}
+
+
+.imgBOX img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.ana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bala{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/* section 2 start css */
+
+#iki {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.conta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80vw;
+    row-gap: 20px;
+
+}
+
+.conta .myBOX{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(168,168 ,168);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.conta .myBOX .svgBOX{
+     height: 70px;
+     width: 70px;
+     fill: white;
+}
+
+.conta .myBOX span{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0,153,255 );
+    border-radius: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conta .myBOX h1{
+    color: #578eab !important;
+}
+
+
+    
